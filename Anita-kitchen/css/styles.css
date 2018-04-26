@@ -1,0 +1,15 @@
+#image {
+  float: left;
+}
+
+#img {
+  float: right;
+}
+
+#column {
+  float: right;
+}
+
+.column {
+  float: left;
+}
