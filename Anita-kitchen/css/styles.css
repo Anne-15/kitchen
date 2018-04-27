@@ -50,9 +50,26 @@
   height: 250px;
 }
 
-.jumbotron {
+.format {
   background-image: url("../images/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   height: 1000px;
   width: auto;
+}
+
+.panel {
+  border: 20%;
+}
+
+#customers:hover {
+  position: relative;
+  width: inherit;
+}
+
+.footer {
+  text-align: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
 }
