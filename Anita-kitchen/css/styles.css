@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.logo:hover {
+  color: skyblue;
+  text-decoration-color: pink;
+}
+
 #column {
   float: right;
 }
@@ -18,12 +23,36 @@
   float: right;
 }
 
-.jumbotron {
-  background-image: url();
-  (..images/backgrounds/landing.jpg);
+.logo {
+  background-image: url("../images/backgrounds/landing.jpg");
+  margin-bottom: auto;
   background-size: cover;
 }
 
 .breakfast {
-  background-image: url(..images/foodtop/breakfast.jpg);
+  background-image: url("../images/foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+}
+
+.lunch {
+  background-image: url("../images/foodtop/lunch.jpg");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+}
+
+.dinner {
+  background-image: url("../images/foodtop/dinner.jpg");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+}
+
+.jumbotron {
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: auto;
 }
