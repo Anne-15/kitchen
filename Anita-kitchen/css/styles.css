@@ -27,6 +27,7 @@
   background-image: url("../images/backgrounds/landing.jpg");
   margin-bottom: auto;
   background-size: cover;
+  background-size: auto;
 }
 
 .breakfast {
@@ -68,8 +69,11 @@
 
 .footer {
   text-align: center;
-  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
+}
+
+.python {
+  background-image: url("../images/backgrounds/subscribe.jpg");
 }
