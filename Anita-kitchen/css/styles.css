@@ -17,3 +17,13 @@
 #img {
   float: right;
 }
+
+.jumbotron {
+  background-image: url();
+  (..images/backgrounds/landing.jpg);
+  background-size: cover;
+}
+
+.breakfast {
+  background-image: url(..images/foodtop/breakfast.jpg);
+}
