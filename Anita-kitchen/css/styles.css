@@ -1,9 +1,5 @@
-#image {
-  float: left;
-}
-
-#img {
-  float: right;
+.logo {
+  text-align: center;
 }
 
 #column {
@@ -12,4 +8,12 @@
 
 .column {
   float: left;
+}
+
+#images {
+  float: left;
+}
+
+#img {
+  float: right;
 }
